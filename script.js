@@ -11,7 +11,8 @@ const perguntas = [
   {
     enunciado:
       "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
-    alternativas: ["Isso é assustador!", "Isso é maravilhoso!"],
+    alternativas: ["Isso é assustador!", "Isso é maravilhoso!"
+]
   },
   {
     enunciado:
@@ -19,14 +20,26 @@ const perguntas = [
     alternativas: [
       "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
       "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-    ],
-  },
-  {
+       ]
+      },
+  
+      {
     enunciado:
       "Após a elaboração do trabalho, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
     alternativas: [
       "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
       "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendo a importância de proteger os trabalhadores.",
-    ],
-  },
+    ]
+  };
+];
+
+let atual = 0;
+let perguntaAtual;
+
+function mostraPergunta () {
+    perguntaAtual = perguntas[atual]
+    caixaPerguntas.textContent = perguntaAtual.enunciado;
+}
+mostraPergunta();
+
 
