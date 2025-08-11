@@ -12,12 +12,13 @@ const perguntas = [
         texto: "Isso é assustador!",
         afirmaçao: "afirmacao"
       },
-          }
-            texto: "Isso é maravilhoso!",
+      }
+        texto: "Isso é maravilhoso!",
   afirmaçao: "afirmacao"
-          }
+      }
   ]
 },
+
 {
   enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial (IA), uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
     alternativas: [
@@ -43,7 +44,6 @@ const perguntas = [
       }
     ]
 };
-        ]:
 
 let atual = 0;
 let perguntaAtual;
