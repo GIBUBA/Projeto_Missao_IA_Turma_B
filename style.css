@@ -2,7 +2,7 @@ body {
     background-color: black;
     color: bisque;
 }
-:root{
+:root {
     --cor-fundo: #01080E;
     --cor-principal: #0B0D20;
     --cor-secundaria: #212333;
@@ -12,13 +12,13 @@ body {
 body {
     background-color: var(--cor-fundo);
     color: var(--cor-texto);
-    display? flex;
+    display: flex;
     justify-content: center;
-    align-items: center:
+    align-items: center;
     min-height: 100vh;
 }
 .caixa-principal{
-    background-color:va(--cor-principal);
+    background-color:var(--cor-principal);
     width: 90%;
     max-width: 600px;
     text-align: center;
